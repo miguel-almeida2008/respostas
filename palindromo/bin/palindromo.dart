@@ -4,6 +4,7 @@ void main() {
   print('------ Palíndromo ------');
   print('> Informe sua frase:');
 
+  // stdin serve para enviar infomarções para o programa via terminal
   var input = stdin.readLineSync()?.replaceAll(' ', '').toLowerCase();
   var reversed = input?.split('').reversed.join();
   print('\n$input -> $reversed \n');
