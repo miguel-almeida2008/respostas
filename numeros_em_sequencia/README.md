@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Faça um programa que leia 3 números inteiros e os imprima em ordem crescente.
