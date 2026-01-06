@@ -1,0 +1,1 @@
+# Faça um programa que leia 3 números inteiros e os imprima em ordem crescente.
