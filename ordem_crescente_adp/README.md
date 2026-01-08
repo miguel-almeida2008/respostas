@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Receba dois números inteiros e os imprima em ordem crescente. Dois números inteiros devem ser separados por uma quebra de linha.

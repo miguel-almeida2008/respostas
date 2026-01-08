@@ -1,5 +1,12 @@
-import 'package:ordem_crescente_adp/ordem_crescente_adp.dart' as ordem_crescente_adp;
+import 'dart:io';
 
-void main(List<String> arguments) {
-  print('Hello world: ${ordem_crescente_adp.calculate()}!');
+void main() {
+  print("Digite o primeiro número:");
+  int a = int.parse(stdin.readLineSync()!);
+  print("Digite o segundo número:");
+  int b = int.parse(stdin.readLineSync()!);
+  List<int> numeros = [a,b];
+  numeros.sort();
+  print(numeros[0]);
+  print(numeros[1]);
 }
