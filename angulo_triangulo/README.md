@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Escreva um programa em C que o usuário entre com dois ângulos internos de um triângulo e o programa calcule o 3o ângulo do triângulo.
