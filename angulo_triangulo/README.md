@@ -1,1 +1,0 @@
-# Escreva um programa em C que o usuário entre com dois ângulos internos de um triângulo e o programa calcule o 3o ângulo do triângulo.
