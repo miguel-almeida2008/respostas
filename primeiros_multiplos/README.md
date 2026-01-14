@@ -1,0 +1,1 @@
+# Pegue todos os 10 primeiros múltiplos do número da entrada, sem usar condicional(if)
