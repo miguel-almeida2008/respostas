@@ -1,1 +1,0 @@
-# Receba dois números inteiros e os imprima em ordem crescente. Dois números inteiros devem ser separados por uma quebra de linha.
