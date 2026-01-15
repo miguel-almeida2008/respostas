@@ -1,0 +1,1 @@
+# Mission: Create a program that reads the width and height of a rectangle from the user and calculates its area.
