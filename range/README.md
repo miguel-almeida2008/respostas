@@ -1,0 +1,1 @@
+# Mission: Read a number and check if it is within the range [10, 20] (inclusive).
