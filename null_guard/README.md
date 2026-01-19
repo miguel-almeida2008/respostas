@@ -1,0 +1,1 @@
+# Mission: Read a line. If it's empty (simulate null logic), print "Null/Empty". Otherwise, print its length.
