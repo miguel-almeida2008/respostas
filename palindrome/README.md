@@ -1,0 +1,1 @@
+# Read a phrase. Check if it is a palindrome (reads the same forward and backward), ignoring case and spaces.
