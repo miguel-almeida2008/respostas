@@ -1,17 +1,26 @@
 import 'dart:io';
 
+bool isPalindrome(String text) {
+  String cleaned = text.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '').toLowerCase();
+  String reversed = cleaned.split('').reversed.join();
+  return cleaned == reversed && cleaned.isNotEmpty;
+}
+
 void main () {
   print("---PALINDROME---");
   print(" > Enter your phrase");
 
-  var input = stdin.readLineSync()?.replaceAll(' ', '').toLowerCase();
-  var reversed = input?.split('').reversed.join();
-  print("\n$input -> $reversed \n");
+  String? input = stdin.readLineSync();
 
-  if (input == reversed) {
-    print("Is Palindrome! \n");
+ if (input == null || input.trim().isEmpty) {
+  print("Error: No input provided.");
+  return;
+ }
+
+  if (isPalindrome(input)) {
+    print("\n'$input' -> Is a Palindrome! \n");
   } else {
-    print("Not Palindrome \n");
+    print("\n'$input' -> Not Palindrome \n");
   }
   print("---END---");
 }
