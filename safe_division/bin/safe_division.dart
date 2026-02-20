@@ -1,15 +1,29 @@
 import 'dart:io';
 
-void main () {
+void main() {
   print("Enter your first number:");
-  int a = int.parse(stdin.readLineSync()!);
+  String? InputA = stdin.readLineSync();
   print("Enter your second number:");
-  int b = int.parse(stdin.readLineSync()!);
+  String? InputB = stdin.readLineSync();
+
+  if (InputA == null || InputB == null) {
+    print("Error: Input stream closed or no input provided.");
+    return;
+  }
 
   try {
-    int result = a ~/ b;
-    print("Result: $result");
-  } on IntegerDivisionByZeroException {
-    print("Cannot divide by zero.");
+    int a = int.parse(InputA);
+    int b = int.parse(InputB);
+
+    if (b == 0) {
+      print("Cannot divide by zero.");
+    } else {
+      int result = a ~/ b;
+      print("Result: $result");
+    }
+  } on FormatException {
+    print("Error: Invalid format. Please type only integers numbers.");
+  } catch (e) {
+    print("An unexpected error occurred: $e");
   }
 }
