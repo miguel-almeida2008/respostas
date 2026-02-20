@@ -1,0 +1,1 @@
+# Mission: Create a function sum(int a, int b) that returns the result. Read inputs in main and call it.
